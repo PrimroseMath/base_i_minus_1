@@ -1,7 +1,3 @@
-module Lib
-    ( convertFromBaseZ
-    ) where
-
 data ComplexInt = !Integer :+ !Integer deriving (Eq,Ord,Show) -- built in Complex type wants RealFloats
 
 instance Num ComplexInt where
